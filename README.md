@@ -1,0 +1,2 @@
+- An app to let you play music on your browser. Built from scratch
+- Shoutout to https://www.youtube.com/@GreatStackDev
