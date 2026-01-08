@@ -21,6 +21,20 @@
                 </div>
             </nav>
             <img src="hammer.jpg" class="song-img">
+            <h1>Can't Touch This</h1>
+            <p>MC Hammer</p>
+
+            <audio controls id="song">
+                <source src="Can't_touch_this.mp4" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+
         </div>
     </div>
 
